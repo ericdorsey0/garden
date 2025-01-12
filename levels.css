@@ -1,0 +1,77 @@
+section{
+    display: grid;
+}
+#level-1{
+    grid-template-columns: 1fr 1fr;
+    
+}
+#level-2{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+    }
+    .peas2{
+       grid-column: 1 / 3;
+
+    }
+    #level-3{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .onions3{
+        grid-column: 2 / 4;
+        
+    }
+    .tomatoes3{
+        grid-column: 1/3;
+    }
+    .carrots3{
+        grid-column: 1/4;
+    }
+    #level-4{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .peas4{
+        grid-column: 1/3;
+    }
+    .onions4{
+        grid-row: 1/3;
+        grid-column: 3/4;
+    }
+    .carrots4{
+        grid-row: 1/3;
+        grid-column: 4/5;
+    }
+    #level-5{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .carrots5{
+        grid-column: 1/2;
+        grid-row: 1/4;
+    }
+    .tomatoes5{
+        grid-column: 2/5;
+        grid-row: 3/4;
+    }
+    .onions5{
+        grid-column: 3/4;
+        grid-row: 1/3;
+    }
+    .lettuce5{
+        grid-column: 5/6;
+    }
+    .peas5{
+        grid-column: 4/6;
+        grid-row: 2/3;
+    }
+    #level-6{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        height: 15rem;
+    }
+    
+       
+    
+
+
